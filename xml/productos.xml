@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<productos>
+    <producto>
+        <codigo>PROD00001</codigo>
+        <nombre>Camiseta de algodón cuello redondo</nombre>
+        <descripcion>Camiseta Mod. 1, elaborada en algodón de 200 grs. cuello redondo decorado, manga corta, costuras en cierres laterales.</descripcion>
+        <img>PROD00001.jpg</img>
+        <categoria>Textil</categoria>
+        <precio>2.50</precio>
+        <existencias>500</existencias>
+    </producto>
+    <producto>
+        <codigo>PROD00002</codigo>
+        <nombre>Camiseta de algodón cuello V</nombre>
+        <descripcion>Camiseta Mod. 2, elaborada en algodón de 200 grs. cuello en V decorado, manga corta, costuras en cierres laterales.</descripcion>
+        <img>PROD00002.jpg</img>
+        <categoria>Textil</categoria>
+        <precio>2.90</precio>
+        <existencias>462</existencias>
+    </producto>
+    <producto>
+        <codigo>PROD00003</codigo>
+        <nombre>Sudadera algodón</nombre>
+        <descripcion>Sudadera para adulto en combinación de materiales algodón y poliéster de 280g/m2, cuello redondo, sin gorro.</descripcion>
+        <img>PROD00003.jpg</img>
+        <categoria>Textil</categoria>
+        <precio>10.0</precio>
+        <existencias>4</existencias>
+    </producto>
+    <producto>
+        <codigo>PROD00004</codigo>
+        <nombre>Sudadera con zipper</nombre>
+        <descripcion>Sudadera para adulto con capucha y cierre de central de zipper. En combinación de materiales algodón y poliéster de 280g/m2. Con cordones a juego y 2 bolsas frontales. Material: 50% Algodón, 50% Poliéster</descripcion>
+        <img>PROD00004.jpg</img>
+        <categoria>Textil</categoria>
+        <precio>13.0</precio>
+        <existencias>196</existencias>
+    </producto>
+    <producto>
+        <codigo>PROD00005</codigo>
+        <nombre>Blusa Tipo Polo</nombre>
+        <descripcion>Blusa Tipo Polo en Liquidación, diversa gama de colores con cuello y puño en contraste. </descripcion>
+        <img>PROD00005.png</img>
+        <categoria>Textil</categoria>
+        <precio>5.0</precio>
+        <existencias>500</existencias>
+    </producto>
+    <producto>
+        <codigo>PROD00006</codigo>
+        <nombre>Camisa Tipo Polo</nombre>
+        <descripcion>Camisa Tipo Polo en Liquidación, diversa gama de colores con cuello y puño en contraste.</descripcion>
+        <img>PROD00006.jpg</img>
+        <categoria>Textil</categoria>
+        <precio>5.0</precio>
+        <existencias>28</existencias>
+    </producto>
+    <producto>
+        <codigo>PROD00007</codigo>
+        <nombre>Chaleco</nombre>
+        <descripcion>Chaleco en resistente combinación de materiales algodón y poliéster de vivos colores. Cierre de zipper principal, multitud de bolsillos frontales y laterales de gran capacidad con cierre de velcro y anilla metálica en el pecho.</descripcion>
+        <img>PROD00007.jpg</img>
+        <categoria>Textil</categoria>
+        <precio>20.0</precio>
+        <existencias>15</existencias>
+    </producto>
+    <producto>
+        <codigo>PROD00008</codigo>
+        <nombre>Mandil</nombre>
+        <descripcion>Mandil pro de alta calidad en resistente material 100% algodón canvas de 340g/m2. De corte por debajo de la rodilla, con cintas de cuello y cintura en resistente polipiel con ajuste mediante hebilla y reforzado con remaches metálicos. Incluye multitud de bolsillos para los distintos utensilios, con las costuras reforzadas.</descripcion>
+        <img>PROD00008.jpg</img>
+        <categoria>Textil</categoria>
+        <precio>12.0</precio>
+        <existencias>25</existencias>
+    </producto>
+    <producto>
+        <codigo>PROD00009</codigo>
+        <nombre>Squeeze</nombre>
+        <descripcion>Squeeze con cuerpo de acabado en aluminio en vivos y variados colores. Con tapón de rosca, dosificados de seguridad y tapón de cierre. Presentado en caja individual.</descripcion>
+        <img>PROD00009.jpg</img>
+        <categoria>Promocional</categoria>
+        <precio>3.50</precio>
+        <existencias>210</existencias>
+    </producto>
+    <producto>
+        <codigo>PROD00010</codigo>
+        <nombre>Squeeze de sublimación</nombre>
+        <descripcion>Squeeze con cuerpo de acabado en suave y brillante color blanco, especialmente diseñado para marcaje en sublimación. Con tapón de seguridad a rosca y mosquetón metálico de transporte. Presentado en caja individual.</descripcion>
+        <img>PROD00010.jpg</img>
+        <categoria>Promocional</categoria>
+        <precio>3.35</precio>
+        <existencias>0</existencias>
+    </producto>
+    <producto>
+        <codigo>PROD00011</codigo>
+        <nombre>Taza</nombre>
+        <descripcion>Taza de Línea Ecológica color Natural.</descripcion>
+        <img>PROD00011.jpg</img>
+        <categoria>Promocional</categoria>
+        <precio>1.30</precio>
+        <existencias>500</existencias>
+    </producto>
+    <producto>
+        <codigo>PROD00012</codigo>
+        <nombre>Termo de sublimación</nombre>
+        <descripcion>Termo de 500ml de capacidad en resistente acero inoxidable. Superficie exterior especialmente diseñada para sublimación. Con tapón de seguridad y presentado en atractiva caja individual de diseño.</descripcion>
+        <img>PROD00012.jpg</img>
+        <categoria>Promocional</categoria>
+        <precio>9.0</precio>
+        <existencias>0</existencias>
+    </producto>
+    <producto>
+        <codigo>PROD00013</codigo>
+        <nombre>Gorra de algodón</nombre>
+        <descripcion>Gorra sin impresión, importada, 100% algodón, 6 paneles con ojetes, cierre de hebilla, viñeta interior genérica bordada. Talla única de adulto.</descripcion>
+        <img>PROD00013.png</img>
+        <categoria>Promocional</categoria>
+        <precio>2.50</precio>
+        <existencias>500</existencias>
+    </producto>
+    <producto>
+        <codigo>PROD00014</codigo>
+        <nombre>Gorra de poliester</nombre>
+        <descripcion>Gorra de 5 paneles con visera plana acolchada y parte trasera en redecilla a juego. Material 100% poliéster de suave acabado, con cierre ajustable de botones y en variada gama de vivos colores.</descripcion>
+        <img>PROD00014.jpg</img>
+        <categoria>Promocional</categoria>
+        <precio>2.75</precio>
+        <existencias>500</existencias>
+    </producto>
+    <producto>
+        <codigo>PROD00015</codigo>
+        <nombre>Mochila</nombre>
+        <descripcion>Mochila en acabado denim 600D, de diseño urbano, con acolchado total en todo el cuerpo y cintas de hombros. Bolsa exterior con cierre de zipper, asas de transporte y cintas de hombros reforzadas a juego y compartimento interior acolchado para portátil de hasta 15 pulgadas.</descripcion>
+        <img>PROD00015.jpg</img>
+        <categoria>Promocional</categoria>
+        <precio>12.0</precio>
+        <existencias>500</existencias>
+    </producto>    
+    <producto>
+        <codigo>PROD00016</codigo>
+        <nombre>Power Bank</nombre>
+        <descripcion>Batería auxiliar externa de aluminio en llamativos colores de 2.200 mAh de capacidad de carga, con botón y ledes indicadores de carga. Cable micro USB incluido y amplia superficie de marcaje, Presentada en atractiva caja de diseño. Las capacidades mostradas en todas nuestras baterías auxiliares externas son reales, incorporando todas ellas baterías de grado A y no recicladas, con una vida útil de al menos 500 ciclos de carga y según normativa CE. Además, están fabricadas conforme a los estándares RoHS y en cumplimiento con los siguientes requisitos de seguridad: Sistema de protección contra sobrecarga del power bank. Sistema de protección contra descarga completa que proporciona una mayor durabilidad del power bank. Sistema de bloqueo para evitar cortocircuitos. Sistema de transferencia de carga constante, acorde con la capacidad del dispositivo de destino.</descripcion>
+        <img>PROD00016.jpg</img>
+        <categoria>Promocional</categoria>
+        <precio>5.50</precio>
+        <existencias>500</existencias>
+    </producto>                          
+</productos>
