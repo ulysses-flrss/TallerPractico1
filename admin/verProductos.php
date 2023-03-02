@@ -21,26 +21,25 @@
             <th>Acciones</th>
         </thead>
         <tbody>
-            <tr>
-                <?php 
-									$productos = simplexml_load_file("../xml/productos.html");
-									foreach ($productos->producto as $prod) {
+            <?php 
+					$productos = simplexml_load_file("../xml/productos.xml");
+					foreach ($productos->producto as $prod) {					
+                        ?>
+                    <tr>
+                        <td><?=$prod->codigo?></td>
+                        <td><?=$prod->nombre?></td>
+                        <td><?=$prod->descripcion?></td>
+                        <td><?=$prod->imagen?></td>
+                        <td><?=$prod->categoria ?></td>
+                        <td><?=$prod->precio ?></td>
+                        <td><?=$prod->existencias ?></td>
+                        <td>
+                            <a>adsad</a>
+                            <a>adsad</a>
+                        </td>
 									
-								?>
-									<td><?=$prod->codigo?></td>
-									<td><?=$prod->nombre?></td>
-									<td><?=$prod->descripcion?></td>
-									<td><?=$prod->imagen?></td>
-									<td><?=$prod->categoria ?></td>
-									<td><?=$prod->precio ?></td>
-									<td><?=$prod->existencias ?></td>
-									<td>
-										<a>adsad</a>
-										<a>adsad</a>
-									</td>
-									
-							<?php } ?>
-            </tr>
+                    </tr>
+				<?php } ?>
         </tbody>
     </table>
 </body>
