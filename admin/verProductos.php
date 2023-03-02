@@ -22,14 +22,24 @@
         </thead>
         <tbody>
             <tr>
-                <td>PROD00001</td>
-                <td>Gorra</td>
-                <td> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut itaque esse laudantium et sunt beatae aliquam omnis non numquam neque doloremque a unde maxime autem aperiam suscipit, saepe </td>  
-                <td>Lorem ipsum dolor</td>
-                <td>ipsum dolor</td>
-                <td>Lorem</td>
-                <td>ipsum</td>  
-                <td>dolor</td>
+                <?php 
+									$productos = simplexml_load_file("../xml/productos.html");
+									foreach ($productos->producto as $prod) {
+									
+								?>
+									<td><?=$prod->codigo?></td>
+									<td><?=$prod->nombre?></td>
+									<td><?=$prod->descripcion?></td>
+									<td><?=$prod->imagen?></td>
+									<td><?=$prod->categoria ?></td>
+									<td><?=$prod->precio ?></td>
+									<td><?=$prod->existencias ?></td>
+									<td>
+										<a>adsad</a>
+										<a>adsad</a>
+									</td>
+									
+							<?php } ?>
             </tr>
         </tbody>
     </table>
