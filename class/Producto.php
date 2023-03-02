@@ -1,5 +1,4 @@
-<?php
-
+<?php 
 class Producto {
 
     // Atributos
@@ -74,26 +73,67 @@ class Producto {
 
 // Metodos
     public function registrarProducto () {
+        include_once ("Validaciones.php");
+        
+        // Validacion
+    if(isset($_POST)){    
         extract($_POST);
-        $productos = simplexml_load_file("xml/productos.xml");
 
-        $producto = $producto->addChild('producto');
+        //Validacion codigo
+        if(!isset($codigo)||estaVacio($codigo)){
+            array_push($errores, "Desbes ingresar el codigo");
+        } else if(!esCodigo($codigo)){
+            array_push($errores, "El codigo debe tener los parametros PROD#####");
+        }
 
+        //Validacion nombre
+        if(!isset($nombre)||estaVacio($nombre)){
+            array_push($errores, "Debes ingresar el nombre");
+        } else if (!esTexto($nombre)){
+            array_push($errores, "El nombre debe contener solo letras");
+        }
+
+        //Validacion descripcion
+        if(!isset($descripcion)||estaVacio($descripcion)){
+            array_push($errores, "Debes ingresar la descripcion");
+        }
+
+        //Validacion de imagenes
+
+        //Validacion precio
+        if(!isset($precio)||estaVacio($precio)){
+            array_push($errores, "Debes ingresar el precio");
+        } else if (!esPrecio($precio)){
+            array_push($errores, "El precio debe ser un numero");
+        }
+        //Validacion existencias
+        if(!isset($existencias)||estaVacio($existencias)){
+            array_push($errores, "Debes ingresar las existencias");
+        } else if (!esExistencia($existencias)){
+            array_push($errores, "Las existencias deben ser un numero");
+        }
+    }
+
+
+        $productos = simplexml_load_file("../xml/productos.xml");
+
+        $producto = $productos->addChild('producto');
+        
         $producto->addChild('codigo',$codigo);
         $producto->addChild('nombre',$nombre);
         $producto->addChild('descripcion',$descripcion);
-        $producto->addChild('imagen',$imagen);
+        $producto->addChild('imagen',$codigo);
         $producto->addChild('categoria',$categoria);
         $producto->addChild('precio',$precio);
         $producto->addChild('existencias',$existencias);
 
 
-        file_put_contents("productos.xml", $productos->asXML());
+        file_put_contents("../xml/productos.xml", $productos->asXML());
     }
 
     public function verProductos () {
         $codigo = $_GET['codigo'];
-        $productos = simplexml_load_file('xml/producto.xml');
+        $productos = simplexml_load_file('../xml/producto.xml');
         $index = 0;
         $i= 0;
     
@@ -107,12 +147,12 @@ class Producto {
     
         unset($productos->producto[$index]);
     
-        file_put_contents("productos.xml", $productos->asXML());
+        file_put_contents("../xml/productos.xml", $productos->asXML());
     }
 
     public function modificarProducto () {
         extract($_POST);
-        $producto = simplexml_load_file("xml/producto.xml");
+        $producto = simplexml_load_file("../xml/producto.xml");
 
         $index = 0;
         $i= 0;
@@ -137,14 +177,14 @@ class Producto {
         $producto->addChild('precio',$_precio);
         $producto->addChild('existencias',$_existencias);
 
-        file_put_contents("productos.xml", $productos->asXML());
+        file_put_contents("../xml/productos.xml", $productos->asXML());
 
         header('location:index.php');
     }
 
     public function eliminarProducto () {
         $codigo = $_GET['codigo'];
-        $productos = simplexml_load_file('class/productos.xml');
+        $productos = simplexml_load_file('../xml/productos.xml');
         $index = 0;
         $i= 0;
     
@@ -158,7 +198,7 @@ class Producto {
     
         unset($productos->producto[$index]);
     
-        file_put_contents("productos.xml", $productos->asXML());
+        file_put_contents("../xml/productos.xml", $productos->asXML());
     }
 }
 

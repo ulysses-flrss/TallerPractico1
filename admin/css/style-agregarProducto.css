@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Jost:wght@200&family=Noto+Sans+HK:wght@500&family=Nunito:ital,wght@1,200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-container {
+
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form {
+    
+}
+
+#form label{
+    
+}
+
+#form input, #form textarea, input:not(input[type="file"]), input:not(input[type="submit"]) {
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    border: 1px solid #000;
+}
