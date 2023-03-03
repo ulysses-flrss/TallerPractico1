@@ -181,12 +181,12 @@
         <existencias>500</existencias>
     </producto>
     <producto>image.png
-        <codigo />
+        <codigo/>
         <nombre>ewda</nombre>
         <descripcion>asddasd</descripcion>
-        <imagen />
+        <imagen/>
         <categoria>1</categoria>
         <precio>1</precio>
         <existencias>1</existencias>
     </producto>
-</productos>
+<producto><codigo>1</codigo><nombre>hdjasuh</nombre><descripcion>hduhd</descripcion><imagen>1</imagen><categoria/><precio>0.50</precio><existencias>12</existencias></producto><producto><codigo>1</codigo><nombre>hdjasuh</nombre><descripcion>hduhd</descripcion><imagen>1</imagen><categoria/><precio>0.50</precio><existencias>12</existencias></producto></productos>
