@@ -199,6 +199,13 @@ class Producto {
     
         file_put_contents("../xml/productos.xml", $productos->asXML());
     }
+
+    public function guardarImagen(){
+        if (isset($_FILES['imagen']) && $_FILES['imagen']['error'] === UPLOAD_ERR_OK) {
+        }
+        move_uploaded_file($_FILES['imagen']['tmp_name'], 'img/' . $_FILES['imagen']['name']);
+
+    }
 }
 
 ?>

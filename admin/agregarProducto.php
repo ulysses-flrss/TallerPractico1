@@ -27,7 +27,7 @@
 
                 <div class="">
                     <label for="imagen">Imagen</label>
-                    <input type="file" name="codigo" id="codigo" accept=".jpg,.png">
+                    <input type="file" name="imagen" id="imagen" accept=".jpg,.png">
                 </div>
                 
                 <div class="">
