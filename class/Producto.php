@@ -10,6 +10,7 @@ class Producto {
     private $precio;
     private $existencias;
 
+    //GRACIELA ULISES ME ESTA EXPLOTANDO LABORALMENTE :(
     
 // Getters
     public function getCodigo () {
