@@ -209,7 +209,7 @@ class Producto {
             $error = $imagen['error'];
             
             if($error === UPLOAD_ERR_OK) {
-                $directorio_destino = 'img/';
+                $directorio_destino = '../img';
                 $ruta_destino = $directorio_destino . $nombre;
                 move_uploaded_file($ruta_temporal, $ruta_destino);
                 echo "Imagen guardada correctamente en $ruta_destino";
