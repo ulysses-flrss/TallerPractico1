@@ -98,7 +98,9 @@ class Producto {
         }
 
         //Validacion de imagenes
-        $this->guardarImagen();
+        if (!isset($imagen)) {
+            array_push($errores, "Debes ingresar una imagen valida");
+        }
 
         //Validacion precio
         if(!isset($precio)||estaVacio($precio)){
@@ -122,7 +124,8 @@ class Producto {
         $producto->addChild('codigo',$codigo);
         $producto->addChild('nombre',$nombre);
         $producto->addChild('descripcion',$descripcion);
-        $producto->addChild('imagen',$codigo);
+        $ruta = $this->guardarImagen();
+        $producto->addChild('imagen',$ruta);
         $producto->addChild('categoria',$categoria);
         $producto->addChild('precio',$precio);
         $producto->addChild('existencias',$existencias);
@@ -202,6 +205,7 @@ class Producto {
     }
 
     public function guardarImagen(){
+        $ruta_destino = "";
         if(isset($_FILES['imagen'])) {
             $imagen = $_FILES['imagen'];
             $nombre = $imagen['name'];
@@ -214,10 +218,13 @@ class Producto {
                 $ruta_destino = $directorio_destino . $nombre;
                 move_uploaded_file($ruta_temporal, $ruta_destino);
                 echo "Imagen guardada correctamente en $ruta_destino";
+                return $ruta_destino;
             } else {
                 echo "Error al subir la imagen";
             }
         }
+
+        
 
     }
 }

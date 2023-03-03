@@ -32,7 +32,7 @@
                 
                 <div class="">
                     <label for="categoria">Categoria</label>
-                    <select name="" id="">
+                    <select name="categoria" id="">
                         <option value="Textil">Textil</option>
                         <option value="Promocional">Promocional</option>
                     </select>
@@ -49,7 +49,6 @@
                 </div>
                 
                 <div class="">
-                    <input type="submit" value="Cancelar">
                     <input type="submit" value="Enviar">
                 </div>
         </form>

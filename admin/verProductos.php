@@ -29,7 +29,7 @@
                         <td><?=$prod->codigo?></td>
                         <td><?=$prod->nombre?></td>
                         <td><?=$prod->descripcion?></td>
-                        <td><?=$prod->imagen?></td>
+                        <td> <img class="img-producto" src="<?=$prod->imagen?>" alt=""> </td>
                         <td><?=$prod->categoria ?></td>
                         <td><?=$prod->precio ?></td>
                         <td><?=$prod->existencias ?></td>
