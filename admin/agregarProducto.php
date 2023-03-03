@@ -49,8 +49,8 @@
                 </div>
                 
                 <div class="">
-                    <input type="submit">Cancelar</input>
-                    <input type="submit">Agregar</input>
+                    <input type="submit" value="Cancelar">
+                    <input type="submit" value="Enviar">
                 </div>
         </form>
     </div>
