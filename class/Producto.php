@@ -201,9 +201,22 @@ class Producto {
     }
 
     public function guardarImagen(){
-        if (isset($_FILES['imagen']) && $_FILES['imagen']['error'] === UPLOAD_ERR_OK) {
+        if(isset($_FILES['imagen'])) {
+            $imagen = $_FILES['imagen'];
+            $nombre = $imagen['name'];
+            $tipo = $imagen['type'];
+            $ruta_temporal = $imagen['tmp_name'];
+            $error = $imagen['error'];
+            
+            if($error === UPLOAD_ERR_OK) {
+                $directorio_destino = 'img/';
+                $ruta_destino = $directorio_destino . $nombre;
+                move_uploaded_file($ruta_temporal, $ruta_destino);
+                echo "Imagen guardada correctamente en $ruta_destino";
+            } else {
+                echo "Error al subir la imagen";
+            }
         }
-        move_uploaded_file($_FILES['imagen']['tmp_name'], 'img/' . $_FILES['imagen']['name']);
 
     }
 }

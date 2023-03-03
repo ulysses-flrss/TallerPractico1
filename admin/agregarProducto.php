@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="form-container">
-        <form action="opcion.php" method="POST" id="form">
+        <form action="opcion.php" method="POST" id="form" enctype="multipart/form-data">
                 <div class="">
                     <label for="codigo">Codigo</label>
                     <input type="text" name="codigo" id="codigo">
