@@ -98,7 +98,7 @@ class Producto {
         }
 
         //Validacion de imagenes
-        this->guardarImagen();
+        $this->guardarImagen();
 
         //Validacion precio
         if(!isset($precio)||estaVacio($precio)){
