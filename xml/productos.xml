@@ -233,28 +233,6 @@
         <categoria>Textil</categoria>
         <precio>5</precio>
         <existencias>2</existencias>
-    </producto> 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-
+    </producto>
+<producto><codigo>PR000020</codigo><nombre>Producto</nombre><descripcion>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</descripcion><imagen>code.png</imagen><categoria>Textil</categoria><precio>50</precio><existencias>12</existencias></producto><producto><codigo/><nombre/><descripcion/><imagen/><categoria>Textil</categoria><precio/><existencias/></producto></productos>
+<producto><codigo>PROD00001</codigo><nombre>Squeezee</nombre><descripcion>Prueba</descripcion><imagen>imagen7.jpg</imagen><categoria>Textil</categoria><precio>22.31</precio><existencias>312</existencias></producto><producto><codigo>PROD00002</codigo><nombre>ProductoPrueba</nombre><descripcion>PruebDescripcion</descripcion><imagen>imagen5.jpeg</imagen><categoria>Textil</categoria><precio>23.2</precio><existencias>34</existencias></producto></productos>
