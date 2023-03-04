@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Jost:wght@200&family=Noto+Sans+HK:wght@500&family=Nunito:ital,wght@1,200&display=swap');
+
+
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 35px !important;
+    color: #2760f0;
+    margin: 20px;
+    animation: myAnim 5s ease 0s 1 normal infinite;
+}
+
+
+* {
+    transition: 500ms all;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #788CFF;
+}
+
+h1{
+    color: #FFF;
+    font-size: 60px;
+    font-family: 'Jost', sans-serif;
+}
+
+#product-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 25px;
+    row-gap: 50px;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.product-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 30px;
+    width: 22.5%;
+    height: 350px;
+    background-color: wheat;
+
+}
+
+.product-img {
+    max-width: 250px;
+    max-height: 175px;
+}
+
+.product-title {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.product-price {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}   
+
+a{
+    border: 2px solid black;
+    transition: 500ms all;
+    text-decoration: none;
+    /* text-shadow: 1px 1px 0px black; */
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    background-color: #4B7BF1;
+    padding: 10px 20px;
+
+    border-radius: 10px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+a:hover{
+    transition: 500ms all;
+    border: 2px solid #CCC;
+    color: #CCC;
+    transform: scale(1.05);
+    background-color: #3b6ce8;
+    box-shadow: 0 0 25px #2760f0;
+}
+
+.search-box{
+    outline: none;
+    margin: 50px 0;
+    border: 2px solid black;
+    transition: 500ms all;
+    text-decoration: none;
+    /* text-shadow: 1px 1px 0px black; */
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    background-color: #4B7BF1;
+    padding: 15px 40px;
+
+    border-radius: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+.search-box:focus{
+    transition: 500ms all;
+    outline: none;
+    border: 2px solid #CCC;
+    color: #CCC;
+    transform: scale(1.05);
+    background-color: #3b6ce8;
+    box-shadow: 0 0 25px #2760f0;
+}
+
+.icon:hover {
+    transition: 500ms all;
+    outline: none;
+    border: none;
+    color: #CCC;
+    transform: scale(1.05);
+    text-shadow: 0 0 25px #2760f0;
+}
+
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		text-shadow: 0 0 25px #DDD;
+        transform: scale(1.10);
+	}
+
+	25%,
+	75% {
+		text-shadow: 0 0 5px #DDD;
+        transform: scale(1.05);
+	}
+}

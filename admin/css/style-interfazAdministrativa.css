@@ -42,6 +42,7 @@ a{
     border-radius: 10px;
     font-family: 'Fira Sans', sans-serif;
 }
+    
 a:hover{
     transition: 500ms all;
     border: 2px solid #CCC;

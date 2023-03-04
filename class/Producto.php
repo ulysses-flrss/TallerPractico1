@@ -218,7 +218,7 @@ class Producto {
                 $ruta_destino = $directorio_destino . $nombre;
                 move_uploaded_file($ruta_temporal, $ruta_destino);
                 echo "Imagen guardada correctamente en $ruta_destino";
-                return $ruta_destino;
+                return $nombre;
             } else {
                 echo "Error al subir la imagen";
             }
