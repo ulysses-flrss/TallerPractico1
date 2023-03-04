@@ -29,7 +29,7 @@
     </form>
         
             <?php
-                if(count$productosFiltro)>0{
+                if(count($productosFiltro))>0{
                     foreach($productosFiltro as $producto){
                         echo . $producto["nombre"] . "<br>";
                     }
