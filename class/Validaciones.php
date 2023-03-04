@@ -5,8 +5,8 @@
         return empty(trim($var));
     }
 
-    function esCodigo($var){
-        return preg_match('/^[A-Z]{2}[0-9]{6}$/',$var);
+    function esCodigo($var){  //PROD#####
+        return preg_match('/^[P][R][O][D][0-9]{5}$/',$var);
     }
 
     function esTexto($var){

@@ -1,237 +1,31 @@
 <?xml version="1.0"?>
 <productos>
-    <producto>
-        <codigo>PROD00001</codigo>
-        <nombre>Camiseta de algod&#xF3;n cuello redondo</nombre>
-        <descripcion>Camiseta Mod. 1, elaborada en algod&#xF3;n de 200 grs. cuello redondo decorado,
-            manga corta, costuras en cierres laterales.</descripcion>
-        <imagen>PROD00001.jpg</imagen>
-        <categoria>Textil</categoria>
-        <precio>2.50</precio>
-        <existencias>500</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00002</codigo>
-        <nombre>Camiseta de algod&#xF3;n cuello V</nombre>
-        <descripcion>Camiseta Mod. 2, elaborada en algod&#xF3;n de 200 grs. cuello en V decorado,
-            manga corta, costuras en cierres laterales.</descripcion>
-        <imagen>PROD00002.jpg</imagen>
-        <categoria>Textil</categoria>
-        <precio>2.90</precio>
-        <existencias>462</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00003</codigo>
-        <nombre>Sudadera algod&#xF3;n</nombre>
-        <descripcion>Sudadera para adulto en combinaci&#xF3;n de materiales algod&#xF3;n y
-            poli&#xE9;ster de 280g/m2, cuello redondo, sin gorro.</descripcion>
-        <imagen>PROD00003.jpg</imagen>
-        <categoria>Textil</categoria>
-        <precio>10.0</precio>
-        <existencias>4</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00004</codigo>
-        <nombre>Sudadera con zipper</nombre>
-        <descripcion>Sudadera para adulto con capucha y cierre de central de zipper. En
-            combinaci&#xF3;n de materiales algod&#xF3;n y poli&#xE9;ster de 280g/m2. Con cordones a
-            juego y 2 bolsas frontales. Material: 50% Algod&#xF3;n, 50% Poli&#xE9;ster</descripcion>
-        <imagen>PROD00004.jpg</imagen>
-        <categoria>Textil</categoria>
-        <precio>13.0</precio>
-        <existencias>196</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00005</codigo>
-        <nombre>Blusa Tipo Polo</nombre>
-        <descripcion>Blusa Tipo Polo en Liquidaci&#xF3;n, diversa gama de colores con cuello y
-            pu&#xF1;o en contraste. </descripcion>
-        <imagen>PROD00005.png</imagen>
-        <categoria>Textil</categoria>
-        <precio>5.0</precio>
-        <existencias>500</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00006</codigo>
-        <nombre>Camisa Tipo Polo</nombre>
-        <descripcion>Camisa Tipo Polo en Liquidaci&#xF3;n, diversa gama de colores con cuello y
-            pu&#xF1;o en contraste.</descripcion>
-        <imagen>PROD00006.jpg</imagen>
-        <categoria>Textil</categoria>
-        <precio>5.0</precio>
-        <existencias>28</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00007</codigo>
-        <nombre>Chaleco</nombre>
-        <descripcion>Chaleco en resistente combinaci&#xF3;n de materiales algod&#xF3;n y
-            poli&#xE9;ster de vivos colores. Cierre de zipper principal, multitud de bolsillos
-            frontales y laterales de gran capacidad con cierre de velcro y anilla met&#xE1;lica en
-            el pecho.</descripcion>
-        <imagen>PROD00007.jpg</imagen>
-        <categoria>Textil</categoria>
-        <precio>20.0</precio>
-        <existencias>15</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00008</codigo>
-        <nombre>Mandil</nombre>
-        <descripcion>Mandil pro de alta calidad en resistente material 100% algod&#xF3;n canvas de
-            340g/m2. De corte por debajo de la rodilla, con cintas de cuello y cintura en resistente
-            polipiel con ajuste mediante hebilla y reforzado con remaches met&#xE1;licos. Incluye
-            multitud de bolsillos para los distintos utensilios, con las costuras reforzadas.</descripcion>
-        <imagen>PROD00008.jpg</imagen>
-        <categoria>Textil</categoria>
-        <precio>12.0</precio>
-        <existencias>25</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00009</codigo>
-        <nombre>Squeeze</nombre>
-        <descripcion>Squeeze con cuerpo de acabado en aluminio en vivos y variados colores. Con
-            tap&#xF3;n de rosca, dosificados de seguridad y tap&#xF3;n de cierre. Presentado en caja
-            individual.</descripcion>
-        <imagen>PROD00009.jpg</imagen>
-        <categoria>Promocional</categoria>
-        <precio>3.50</precio>
-        <existencias>210</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00010</codigo>
-        <nombre>Squeeze de sublimaci&#xF3;n</nombre>
-        <descripcion>Squeeze con cuerpo de acabado en suave y brillante color blanco, especialmente
-            dise&#xF1;ado para marcaje en sublimaci&#xF3;n. Con tap&#xF3;n de seguridad a rosca y
-            mosquet&#xF3;n met&#xE1;lico de transporte. Presentado en caja individual.</descripcion>
-        <imagen>PROD00010.jpg</imagen>
-        <categoria>Promocional</categoria>
-        <precio>3.35</precio>
-        <existencias>0</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00011</codigo>
-        <nombre>Taza</nombre>
-        <descripcion>Taza de L&#xED;nea Ecol&#xF3;gica color Natural.</descripcion>
-        <imagen>PROD00011.jpg</imagen>
-        <categoria>Promocional</categoria>
-        <precio>1.30</precio>
-        <existencias>500</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00012</codigo>
-        <nombre>Termo de sublimaci&#xF3;n</nombre>
-        <descripcion>Termo de 500ml de capacidad en resistente acero inoxidable. Superficie exterior
-            especialmente dise&#xF1;ada para sublimaci&#xF3;n. Con tap&#xF3;n de seguridad y
-            presentado en atractiva caja individual de dise&#xF1;o.</descripcion>
-        <imagen>PROD00012.jpg</imagen>
-        <categoria>Promocional</categoria>
-        <precio>9.0</precio>
-        <existencias>0</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00013</codigo>
-        <nombre>Gorra de algod&#xF3;n</nombre>
-        <descripcion>Gorra sin impresi&#xF3;n, importada, 100% algod&#xF3;n, 6 paneles con ojetes,
-            cierre de hebilla, vi&#xF1;eta interior gen&#xE9;rica bordada. Talla &#xFA;nica de
-            adulto.</descripcion>
-        <imagen>PROD00013.png</imagen>
-        <categoria>Promocional</categoria>
-        <precio>2.50</precio>
-        <existencias>500</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00014</codigo>
-        <nombre>Gorra de poliester</nombre>
-        <descripcion>Gorra de 5 paneles con visera plana acolchada y parte trasera en redecilla a
-            juego. Material 100% poli&#xE9;ster de suave acabado, con cierre ajustable de botones y
-            en variada gama de vivos colores.</descripcion>
-        <imagen>PROD00014.jpg</imagen>
-        <categoria>Promocional</categoria>
-        <precio>2.75</precio>
-        <existencias>500</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00015</codigo>
-        <nombre>Mochila</nombre>
-        <descripcion>Mochila en acabado denim 600D, de dise&#xF1;o urbano, con acolchado total en
-            todo el cuerpo y cintas de hombros. Bolsa exterior con cierre de zipper, asas de
-            transporte y cintas de hombros reforzadas a juego y compartimento interior acolchado
-            para port&#xE1;til de hasta 15 pulgadas.</descripcion>
-        <imagen>PROD00015.jpg</imagen>
-        <categoria>Promocional</categoria>
-        <precio>12.0</precio>
-        <existencias>500</existencias>
-    </producto>
-    <producto>
-        <codigo>PROD00016</codigo>
-        <nombre>Power Bank</nombre>
-        <descripcion>Bater&#xED;a auxiliar externa de aluminio en llamativos colores de 2.200 mAh de
-            capacidad de carga, con bot&#xF3;n y ledes indicadores de carga. Cable micro USB
-            incluido y amplia superficie de marcaje, Presentada en atractiva caja de dise&#xF1;o.
-            Las capacidades mostradas en todas nuestras bater&#xED;as auxiliares externas son
-            reales, incorporando todas ellas bater&#xED;as de grado A y no recicladas, con una vida
-            &#xFA;til de al menos 500 ciclos de carga y seg&#xFA;n normativa CE. Adem&#xE1;s,
-            est&#xE1;n fabricadas conforme a los est&#xE1;ndares RoHS y en cumplimiento con los
-            siguientes requisitos de seguridad: Sistema de protecci&#xF3;n contra sobrecarga del
-            power bank. Sistema de protecci&#xF3;n contra descarga completa que proporciona una
-            mayor durabilidad del power bank. Sistema de bloqueo para evitar cortocircuitos. Sistema
-            de transferencia de carga constante, acorde con la capacidad del dispositivo de destino.</descripcion>
-        <imagen>PROD00016.jpg</imagen>
-        <categoria>Promocional</categoria>
-        <precio>5.50</precio>
-        <existencias>500</existencias>
-    </producto>
-    <producto>image.png <codigo/>
-        <nombre>ewda</nombre>
-        <descripcion>asddasd</descripcion>
-        <imagen/>
-        <categoria>
-        1</categoria>
-        <precio>1</precio>
-        <existencias>1</existencias>
-    </producto>
-    <producto>
-        <codigo>1</codigo>
-        <nombre>hdjasuh</nombre>
-        <descripcion>hduhd</descripcion>
-        <imagen>1</imagen>
-        <categoria/>
-        <precio>0.50</precio>
-        <existencias>12</existencias>
-    </producto>
-    <producto>
-        <codigo>1</codigo>
-        <nombre>hdjasuh</nombre>
-        <descripcion>hduhd</descripcion>
-        <imagen>1</imagen>
-        <categoria/>
-        <precio>0.50</precio>
-        <existencias>12</existencias>
-    </producto>
-    <producto>
-        <codigo>123</codigo>
-        <nombre>sadas</nombre>
-        <descripcion>asdasd</descripcion>
-        <imagen>NOISE FINAL- iso.png</imagen>
-        <categoria>Textil</categoria>
-        <precio>5</precio>
-        <existencias>2</existencias>
-    </producto>
-    <producto>
-        <codigo>123</codigo>
-        <nombre>sadas</nombre>
-        <descripcion>asdasd</descripcion>
-        <imagen>Picture1.png</imagen>
-        <categoria>Textil</categoria>
-        <precio>5</precio>
-        <existencias>2</existencias>
-    </producto>
-    <producto>
-        <codigo>123</codigo>
-        <nombre>sadas</nombre>
-        <descripcion>asdasd</descripcion>
-        <imagen>BG-2.png</imagen>
-        <categoria>Textil</categoria>
-        <precio>5</precio>
-        <existencias>2</existencias>
-    </producto>
-<producto><codigo>PR000020</codigo><nombre>Producto</nombre><descripcion>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</descripcion><imagen>code.png</imagen><categoria>Textil</categoria><precio>50</precio><existencias>12</existencias></producto></productos>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<producto><codigo>PROD00001</codigo><nombre>Squeezee</nombre><descripcion>Prueba</descripcion><imagen>imagen7.jpg</imagen><categoria>Textil</categoria><precio>22.31</precio><existencias>312</existencias></producto><producto><codigo>PROD00002</codigo><nombre>ProductoPrueba</nombre><descripcion>PruebDescripcion</descripcion><imagen>imagen5.jpeg</imagen><categoria>Textil</categoria><precio>23.2</precio><existencias>34</existencias></producto></productos>

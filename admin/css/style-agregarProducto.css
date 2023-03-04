@@ -6,27 +6,106 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #5e82de;
+}
+
 .form-container {
 
 }
 
-#form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.error {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+    background-color: hsl(223, 65%, 70%);
+    width: fit-content;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.error li {
+    margin: 10px 20px;
 }
 
 #form {
-    
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    row-gap: 25px;
+    column-gap: 50px;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+
+    margin: 20px;
+    flex-direction: column;
 }
+
 
 #form label{
-    
+    font-weight: bold;
+    font-size: 15px;
+    width: 200px;
+    margin: 0 15px;
 }
 
-#form input, #form textarea, input:not(input[type="file"]), input:not(input[type="submit"]) {
+#form input, #form textarea, input:not(input[type="submit"]), select {
+    font-family: 'Fira Sans', sans-serif;
     border-radius: 10px;
     outline: none;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid #000;
+    transition: 500ms all;
+    text-decoration: none;
+    /* text-shadow: 1px 1px 0px black; */
+    font-weight: 600;
+    color: black;
+    font-size: 15px;
+    background-color: #4B7BF1;
+    border-radius: 10px;
+    font-family: 'Fira Sans', sans-serif;
 }
+
+
+#form input:focus, #form textarea:focus, input:not(input[type="submit"]):focus, select:focus {
+    transition: 250ms all;
+    border: 1px solid #CCC;
+    color: #CCC;
+    background-color: #3b6ce8;
+    box-shadow: 0 0 25px #2760f0;
+ }
+
+#imagen {
+    font-family: 'Fira Sans', sans-serif;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    padding: 10px;
+}
+
+#registrar, a{
+    text-decoration: none;
+    border: 1px solid black;
+    transition: 500ms all;
+    text-decoration: none;
+    /* text-shadow: 1px 1px 0px black; */
+    font-weight: 600;
+    color: black;
+    font-size: 15px !important;
+    background-color: #4B7BF1;
+    width: 150px;
+    margin: 0 20px;
+    padding: 15px 20px !important;
+    border-radius: 10px;
+    font-family: 'Fira Sans', sans-serif;
+}
+    
+#registrar:hover, a:hover{
+    transition: 500ms all;
+    border: 2px solid #CCC;
+    color: #CCC;
+    transform: scale(1.05);
+    background-color: #3b6ce8;
+    box-shadow: 0 0 25px #2760f0;
+}
+
