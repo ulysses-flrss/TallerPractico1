@@ -24,8 +24,12 @@
             <p class="product-price"> $<?= $prod->precio ?> </p>
             <a href="#">Ver detalles</a>
         </div>
-
         <?php } ?>
+
+        <div id="mimodal" class="modal">
+        <div class="modal-contenido">
+        <span class="cerrar-modal">&times;</span>
+        
     </div>
 </body>
 </html>
