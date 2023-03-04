@@ -257,8 +257,4 @@
     
     
     
-    
-    
-    
-<producto><codigo>PROD00001</codigo><nombre>Squeezee</nombre><descripcion>Prueba</descripcion><imagen>imagen7.jpg</imagen><categoria>Textil</categoria><precio>22.31</precio><existencias>312</existencias></producto><producto><codigo>PROD00002</codigo><nombre>ProductoPrueba</nombre><descripcion>PruebDescripcion</descripcion><imagen>imagen5.jpeg</imagen><categoria>Textil</categoria><precio>23.2</precio><existencias>34</existencias></producto></productos>
->>>>>>> 3cd48c2ec4aea47e12b0b1625a8fa2e693eb7f7c
+
