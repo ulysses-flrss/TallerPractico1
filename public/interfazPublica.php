@@ -11,11 +11,26 @@
 </span>
 <body>
 
+    <?php
+        $xml = simplexml_load_file('../xml/productos.xml');
+        
+        if (isset($_POST['busqueda'])) {
+            $busqueda = $_POST['busqueda'];
+            foreach ($xml->producto as $prod) {
+                if (strpos($prod, $busqueda) !== false) {
+                    echo $prod . "<br>";
+                }
+            }
+        }else{
+            echo "El producto no esta disponible";
+        }
+    ?>
+
     <form action="" method="post">
-        <input type="text" placeholder="Producto a buscar..." class="search-box" name="" id="" value="">
+        <input type="text" placeholder="Producto a buscar..." class="search-box" name="busqueda" id="busqueda" value="">
         <button type="submit" name="buscar" id="buscar"> <i class="fa-solid fa-magnifying-glass icon"></i> </button>
     </form>
-    
+
     <div id="product-container">
             <?php $productos =simplexml_load_file("../xml/productos.xml");
 					foreach ($productos->producto as $prod) {					
