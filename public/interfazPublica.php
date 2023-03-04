@@ -31,7 +31,7 @@
             <?php
                 if(count($productosFiltro) > 0){
                     foreach($productosFiltro as $producto){
-                        echo . $producto["nombre"] . "<br>";
+                        echo "" . $producto["nombre"] . "<br>";
                     }
                 }else{
                     echo "Producto no disponible";
