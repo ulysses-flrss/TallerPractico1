@@ -16,7 +16,7 @@ table {
 }
 
 table th{
-    background-color: #1EFF8F;
+    background-color: #8b9bfa;
     font-size: 20px;
     font-family: 'Jost', sans-serif;
 }
@@ -26,12 +26,50 @@ table td{
     font-family: 'Fira Sans', sans-serif;
 }
 
-th, tr, td{
-    background-color: #4D50FF;
+th, tr, td:not(.botones){
+    font-weight: bold;
+    background-color: #a3b1ff;
     border: 2px solid #000000;
     padding: 5px;
 }
 
 .img-producto {
     max-width: 300px;
+}
+
+#add {
+    display: block;
+    width: 300px;
+    margin: 30px auto;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 100px 10px;
+}
+
+a{
+    border: 2px solid black;
+    transition: 500ms all;
+    text-decoration: none;
+    /* text-shadow: 1px 1px 0px black; */
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+    background-color: #4B7BF1;
+    height: 30px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-family: 'Fira Sans', sans-serif;
+}
+    
+a:hover{
+    transition: 500ms all;
+    border: 2px solid #CCC;
+    color: #CCC;
+    transform: scale(1.05);
+    background-color: #3b6ce8;
+    box-shadow: 0 0 25px #2760f0;
 }

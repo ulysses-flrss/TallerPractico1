@@ -9,6 +9,9 @@
 </head>
 <body>
     <h1>Productos</h1>
+    <a id="add" href="agregarProducto.php">Agregar Producto</a>
+    
+            
     <table>
         <thead>
             <th>Codigo</th>
@@ -33,13 +36,14 @@
                         <td><?=$prod->categoria ?></td>
                         <td><?=$prod->precio ?></td>
                         <td><?=$prod->existencias ?></td>
-                        <td>
-                            <a>adsad</a>
-                            <a>adsad</a>
+                        <td class="botones">
+                            <a href="modificarProducto.php?codigo=<?= $prod->codigo ?>">Modificar</a>
+                            <a href="opcion.php?opt=eliminar&codigo="<?=$prod->codigo?>">Eliminar</a>
                         </td>
-									
+                        
                     </tr>
-				<?php } ?>
+                    <?php }
+                ?>
         </tbody>
     </table>
 </body>
