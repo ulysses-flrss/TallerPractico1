@@ -16,7 +16,7 @@
     </form>
     <div id="product-container">
             <?php $productos =simplexml_load_file("../xml/productos.xml");
-					foreach ($productos->producto as $prod) {					
+					foreach ($productos->$producto as $prod) {					
                         ?>
         <div class="product-div">
             <h2 class="product-title"> <?= $prod->nombre ?> </h2>
