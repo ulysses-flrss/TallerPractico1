@@ -38,7 +38,7 @@
                         <td><?=$prod->existencias ?></td>
                         <td class="botones">
                             <a href="modificarProducto.php?codigo=<?= $prod->codigo ?>">Modificar</a>
-                            <a href="opcion.php?opt=eliminar&codigo="<?=$prod->codigo?>">Eliminar</a>
+                            <a href="opcion.php?opt=eliminar&codigo=<?=$prod->codigo?>">Eliminar</a>
                         </td>
                         
                     </tr>
