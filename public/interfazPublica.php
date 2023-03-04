@@ -16,8 +16,8 @@
             if(isset($_POST['buscar'])){
                 $busqueda = $_POST['busqueda'];
 
-                $productosFiltro = array_filter($productos,function($producto) use ($busqueda){
-                    return strpos(strtolower($producto['nombre']), strtolower($busqueda)) !== false;
+                $productosFiltro = array_filter($productos,function(producto) use ($busqueda){
+                    return strpos(strtolower(producto['nombre']), strtolower($busqueda)) !== false;
                 } );
             }else{
                 $productosFiltro = $productos;
