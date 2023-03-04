@@ -15,9 +15,10 @@
         <?php
             if(isset($_POST['buscar'])){
                 $busqueda = $_POST['busqueda'];
+                $productos =simplexml_load_file("../xml/productos.xml");
 
-                $productosFiltro = array_filter($productos,function(producto) use ($busqueda){
-                    return strpos(strtolower(producto['nombre']), strtolower($busqueda)) !== false;
+                $productosFiltro = array_filter($productos,function($producto) use ($busqueda){
+                    return strpos(strtolower($producto['nombre']), strtolower($busqueda)) !== false;
                 } );
             }else{
                 $productosFiltro = $productos;
