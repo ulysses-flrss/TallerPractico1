@@ -25,7 +25,7 @@
         </thead>
         <tbody>
             <?php 
-					$productos = producto("../xml/productos.xml");
+					$productos = simplexml_load_file("../xml/productos.xml");
 					foreach ($productos->producto as $prod) {					
                         ?>
                     <tr>
