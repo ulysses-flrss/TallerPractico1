@@ -15,7 +15,7 @@
         <button type="submit"> <i class="fa-solid fa-magnifying-glass icon"></i> </button>
     </form>
     <div id="product-container">
-            <?php $productos = simplexml_load_file("../xml/productos.xml");
+            <?php $productos =producto("../xml/productos.xml");
 					foreach ($productos->producto as $prod) {					
                         ?>
         <div class="product-div">
