@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style-verProductos.css">
-    <title>Document</title>
+    <title>Ver productos</title>
 </head>
 <body>
-    <h1>Productos</h1>
+    <h1>Productos de “TextilExport”</h1><br>
     <a id="add" href="agregarProducto.php">Agregar Producto</a>
     
             
@@ -34,7 +34,7 @@
                         <td><?=$prod->descripcion?></td>
                         <td> <img class="img-producto" src="../img/<?=$prod->imagen?>" alt=""> </td>
                         <td><?=$prod->categoria ?></td>
-                        <td><?=$prod->precio ?></td>
+                        <td>$<?=$prod->precio ?></td>
                         <td><?=$prod->existencias ?></td>
                         <td class="botones">
                             <a href="modificarProducto.php?codigo=<?= $prod->codigo ?>">Modificar</a>

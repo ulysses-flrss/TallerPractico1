@@ -5,8 +5,8 @@ body{
     background-color: #5e82de;
 }
 
-h1{
-    color: #000;
+.title{
+    color: #FFF;
     text-shadow: 2px 2px 2px #3255af;
     font-size: 60px;
     font-family: 'Jost', sans-serif;

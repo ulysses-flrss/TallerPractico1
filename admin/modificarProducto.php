@@ -41,29 +41,33 @@
     } 
     ?>
 
-    <div class="form-container">
-        <form action="<?= $_SERVER['PHP_SELF']?>" method="POST" id="form" enctype="multipart/form-data">
+    <h1 class="title">¡Bienvenido Empleado Administrador!</h1><br>
+
+    <h2 class="sub-title">Llena todos los campos para ingresar un nuevo producto:</h2><br>
+
+    <div class="contenedor">
+        <form action="<?= $_SERVER['PHP_SELF']?>" method="POST" id="form" enctype="multipart/form-data" class="formulario">
     
 
             <div class="">
-                <label for="codigo">Codigo</label>
+                <label for="codigo" class="info">Codigo</label>
                 <input type="text" name="codigo" id="codigo" value="<?= $editarProducto->getCodigo() ?>"  >
             </div>
         
 
                 <div class="">
-                    <label for="nombre">Nombre</label>
+                    <label for="nombre" class="info">Nombre</label>
                     <input type="text" name="nombre" id="nombre" value="<?= $editarProducto->getNombre()?>" >
                 </div>
 
                 <div class="">
-                    <label for="descripcion">Descripcion</label>
+                    <label for="descripcion" class="info">Descripcion</label>
                     <textarea name="descripcion" id="descripcion" cols="30" rows="5" ><?= $editarProducto->getDescripcion()?></textarea>
                 </div>  
 
                 
                 <div class="">
-                    <label for="categoria">Categoria</label>
+                    <label for="categoria" class="info">Categoria</label>
                     <select name="categoria" id="">
                         <option value="<?=$editarProducto->getCategoria() ?>">Actual: <?=$editarProducto->getCategoria() ?></option>
                         <option value="Textil">Textil</option>
@@ -72,18 +76,18 @@
                 </div>
 
                 <div class="">
-                    <label for="precio">Precio</label>
+                    <label for="precio" class="info">Precio</label>
                     <input type="number" step="0.01" name="precio" id="precio" value="<?=$editarProducto->getPrecio() ?>" >
                 </div>
 
                 <div class="">
-                    <label for="existencias">Existencias</label>
+                    <label for="existencias" class="info">Existencias</label>
                     <input type="number" name="existencias" id="existencias" value="<?= $editarProducto->getExistencias()?>" >
                 </div>
                 
                 <div class="">
-                    <input type="submit" value="Agregar" name="enviar" id="registrar">
-                    <a href="interfazAdministrativa.php">Cancelar</a>
+                    <input type="submit" value="Agregar" name="enviar" id="registrar" class="boton">
+                    <a href="interfazAdministrativa.php" class="boton">Cancelar</a>
                 </div>
         </form>
     </div>

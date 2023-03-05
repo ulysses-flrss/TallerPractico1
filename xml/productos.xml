@@ -2,8 +2,8 @@
 <productos>
     <producto>
         <codigo>PROD00001</codigo>
-        <nombre>Camiseta de algod&#xF3;n cuello redondo</nombre>
-        <descripcion>Camiseta Mod. 1, elaborada en algod&#xF3;n de 200 grs. cuello redondo decorado,
+        <nombre>Camiseta de cuello redondo</nombre>
+        <descripcion>Camiseta Mod. 1, elaborada en algod&#xF3;n de 200 grs. cuello redondo decorado,&#xD;
             manga corta, costuras en cierres laterales.</descripcion>
         <imagen>PROD00001.jpg</imagen>
         <categoria>Textil</categoria>
@@ -12,7 +12,7 @@
     </producto>
     <producto>
         <codigo>PROD00002</codigo>
-        <nombre>Camiseta de algod&#xF3;n cuello V</nombre>
+        <nombre>Camiseta de cuello V</nombre>
         <descripcion>Camiseta Mod. 2, elaborada en algod&#xF3;n de 200 grs. cuello en V decorado,
             manga corta, costuras en cierres laterales.</descripcion>
         <imagen>PROD00002.jpg</imagen>
@@ -85,17 +85,7 @@
         <precio>12.0</precio>
         <existencias>25</existencias>
     </producto>
-    <producto>
-        <codigo>PROD00009</codigo>
-        <nombre>Squeeze</nombre>
-        <descripcion>Squeeze con cuerpo de acabado en aluminio en vivos y variados colores. Con
-            tap&#xF3;n de rosca, dosificados de seguridad y tap&#xF3;n de cierre. Presentado en caja
-            individual.</descripcion>
-        <imagen>PROD00009.jpg</imagen>
-        <categoria>Promocional</categoria>
-        <precio>3.50</precio>
-        <existencias>210</existencias>
-    </producto>
+    
     <producto>
         <codigo>PROD00010</codigo>
         <nombre>Squeeze de sublimaci&#xF3;n</nombre>
@@ -149,89 +139,24 @@
         <precio>2.75</precio>
         <existencias>500</existencias>
     </producto>
-    <producto>
-        <codigo>PROD00015</codigo>
-        <nombre>Mochila</nombre>
-        <descripcion>Mochila en acabado denim 600D, de dise&#xF1;o urbano, con acolchado total en
-            todo el cuerpo y cintas de hombros. Bolsa exterior con cierre de zipper, asas de
-            transporte y cintas de hombros reforzadas a juego y compartimento interior acolchado
-            para port&#xE1;til de hasta 15 pulgadas.</descripcion>
-        <imagen>PROD00015.jpg</imagen>
-        <categoria>Promocional</categoria>
-        <precio>12.0</precio>
-        <existencias>500</existencias>
-    </producto>
+    
     <producto>
         <codigo>PROD00016</codigo>
         <nombre>Power Bank</nombre>
-        <descripcion>Bater&#xED;a auxiliar externa de aluminio en llamativos colores de 2.200 mAh de
-            capacidad de carga, con bot&#xF3;n y ledes indicadores de carga. Cable micro USB
-            incluido y amplia superficie de marcaje, Presentada en atractiva caja de dise&#xF1;o.
-            Las capacidades mostradas en todas nuestras bater&#xED;as auxiliares externas son
-            reales, incorporando todas ellas bater&#xED;as de grado A y no recicladas, con una vida
-            &#xFA;til de al menos 500 ciclos de carga y seg&#xFA;n normativa CE. Adem&#xE1;s,
-            est&#xE1;n fabricadas conforme a los est&#xE1;ndares RoHS y en cumplimiento con los
-            siguientes requisitos de seguridad: Sistema de protecci&#xF3;n contra sobrecarga del
-            power bank. Sistema de protecci&#xF3;n contra descarga completa que proporciona una
-            mayor durabilidad del power bank. Sistema de bloqueo para evitar cortocircuitos. Sistema
+        <descripcion>Bater&#xED;a auxiliar externa de aluminio en llamativos colores de 2.200 mAh de&#xD;
+            capacidad de carga, con bot&#xF3;n y ledes indicadores de carga. Cable micro USB&#xD;
+            incluido y amplia superficie de marcaje, Presentada en atractiva caja de dise&#xF1;o.&#xD;
+            Las capacidades mostradas en todas nuestras bater&#xED;as auxiliares externas son&#xD;
+            reales, incorporando todas ellas bater&#xED;as de grado A y no recicladas, con una vida&#xD;
+            &#xFA;til de al menos 500 ciclos de carga y seg&#xFA;n normativa CE. Adem&#xE1;s,&#xD;
+            est&#xE1;n fabricadas conforme a los est&#xE1;ndares RoHS y en cumplimiento con los&#xD;
+            siguientes requisitos de seguridad: Sistema de protecci&#xF3;n contra sobrecarga del&#xD;
+            power bank. Sistema de protecci&#xF3;n contra descarga completa que proporciona una&#xD;
+            mayor durabilidad del power bank. Sistema de bloqueo para evitar cortocircuitos. Sistema&#xD;
             de transferencia de carga constante, acorde con la capacidad del dispositivo de destino.</descripcion>
         <imagen>PROD00016.jpg</imagen>
-        <categoria>Promocional</categoria>
-        <precio>5.50</precio>
+        <categoria>Textil</categoria>
+        <precio>5.65</precio>
         <existencias>500</existencias>
-    </producto>
-    <producto>image.png <codigo/>
-        <nombre>ewda</nombre>
-        <descripcion>asddasd</descripcion>
-        <imagen/>
-        <categoria>
-        1</categoria>
-        <precio>1</precio>
-        <existencias>1</existencias>
-    </producto>
-    <producto>
-        <codigo>1</codigo>
-        <nombre>hdjasuh</nombre>
-        <descripcion>hduhd</descripcion>
-        <imagen>1</imagen>
-        <categoria/>
-        <precio>0.50</precio>
-        <existencias>12</existencias>
-    </producto>
-    <producto>
-        <codigo>1</codigo>
-        <nombre>hdjasuh</nombre>
-        <descripcion>hduhd</descripcion>
-        <imagen>1</imagen>
-        <categoria/>
-        <precio>0.50</precio>
-        <existencias>12</existencias>
-    </producto>
-    <producto>
-        <codigo>123</codigo>
-        <nombre>sadas</nombre>
-        <descripcion>asdasd</descripcion>
-        <imagen>NOISE FINAL- iso.png</imagen>
-        <categoria>Textil</categoria>
-        <precio>5</precio>
-        <existencias>2</existencias>
-    </producto>
-    <producto>
-        <codigo>123</codigo>
-        <nombre>sadas</nombre>
-        <descripcion>asdasd</descripcion>
-        <imagen>Picture1.png</imagen>
-        <categoria>Textil</categoria>
-        <precio>5</precio>
-        <existencias>2</existencias>
-    </producto>
-    <producto>
-        <codigo>123</codigo>
-        <nombre>sadas</nombre>
-        <descripcion>asdasd</descripcion>
-        <imagen>BG-2.png</imagen>
-        <categoria>Textil</categoria>
-        <precio>5</precio>
-        <existencias>2</existencias>
     </producto>
 </productos>

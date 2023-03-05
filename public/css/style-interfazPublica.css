@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Jost:wght@200&family=Noto+Sans+HK:wght@500&family=Nunito:ital,wght@1,200&display=swap');
 
 
-
 button {
     background-color: transparent;
     border: none;
@@ -35,6 +34,13 @@ body{
 h1{
     color: #FFF;
     font-size: 60px;
+    font-family: 'Jost', sans-serif;
+}
+
+h2{
+    color: #FFF;
+    font-size: 30px ;
+    text-align: center;
     font-family: 'Jost', sans-serif;
 }
 
@@ -138,6 +144,57 @@ a:hover{
     transform: scale(1.05);
     text-shadow: 0 0 25px #2760f0;
 }
+
+
+.modal-container {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+span{
+    font-weight: bolder !important;
+}
+
+img {
+    border-radius: 20px;
+}
+
+i {
+    align-self: start;
+    font-size: 25px;
+}
+
+.modal {
+    border-radius: 10px;
+    padding: 20px 20px;
+    text-align: justify !important;
+    width: 80%;
+    height: 65%;
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center     ;
+    z-index: 100;
+    position: relative;
+    margin: auto;
+    background-color: #4B7BF1;
+    font-family: 'Jost', sans-serif;   
+}
+
+.modal-info-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.modal-imagen {
+    max-width: 400px;
+}
+
 
 @keyframes myAnim {
 	0%,

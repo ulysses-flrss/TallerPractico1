@@ -4,14 +4,49 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-align: justify;
 }
 
 body {
     background-color: #5e82de;
 }
 
-.form-container {
 
+.contenedor{
+    width: 100%;
+    background-color: #4770DA;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor input {
+    width: 90%;
+    height: 45px;
+    margin: 0.5rem;
+  }
+
+.contenedor textarea{
+    width: 90%;
+    height: 100px;
+}
+
+.title{
+    color: #FFF;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+
+.sub-title{
+    color: #FFF;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
 }
 
 .error {
@@ -42,9 +77,9 @@ body {
 }
 
 
-#form label{
+#form .info{
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     width: 200px;
     margin: 0 15px;
 }
@@ -60,8 +95,8 @@ body {
     /* text-shadow: 1px 1px 0px black; */
     font-weight: 600;
     color: black;
-    font-size: 15px;
-    background-color: #4B7BF1;
+    font-size: 20px;
+    background-color: #EEE;
     border-radius: 10px;
     font-family: 'Fira Sans', sans-serif;
 }
@@ -70,8 +105,8 @@ body {
 #form input:focus, #form textarea:focus, input:not(input[type="submit"]):focus, select:focus {
     transition: 250ms all;
     border: 1px solid #CCC;
-    color: #CCC;
-    background-color: #3b6ce8;
+    color: #000;
+    background-color: #E1E1E1;
     box-shadow: 0 0 25px #2760f0;
  }
 
@@ -83,6 +118,7 @@ body {
     padding: 10px;
 }
 
+
 #registrar, a{
     text-decoration: none;
     border: 1px solid black;
@@ -92,8 +128,9 @@ body {
     font-weight: 600;
     color: black;
     font-size: 15px !important;
-    background-color: #4B7BF1;
+    background-color: #4B7BF1 !important;
     width: 150px;
+    text-align: center;
     margin: 0 20px;
     padding: 15px 20px !important;
     border-radius: 10px;
@@ -105,7 +142,6 @@ body {
     border: 2px solid #CCC;
     color: #CCC;
     transform: scale(1.05);
-    background-color: #3b6ce8;
+    background-color: #4B7BF1;
     box-shadow: 0 0 25px #2760f0;
 }
-
